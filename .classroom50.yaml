@@ -1,0 +1,12 @@
+schema: "classroom50/repo-config/v1"
+classroom: "agi"
+assignment: "todo-app"
+owner:
+  username: "jeonsejoon"
+  id: 218912569
+  accepted_at: "2026-09-08T23:56:36Z"
+source:
+  owner: "gsm-class"
+  owner_id: 318515310
+  repo: "todo-app"
+  branch: "main"
