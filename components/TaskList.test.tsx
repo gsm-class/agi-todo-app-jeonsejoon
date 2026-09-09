@@ -52,7 +52,7 @@ describe('TaskList', () => {
       />
     )
 
-    expect(screen.getByText('タスクがありません。新しいタスクを追加してください。')).toBeInTheDocument()
+    expect(screen.getByText('작업이 없습니다. 새 작업을 추가해주세요.')).toBeInTheDocument()
   })
 
   it('タスクが存在する場合、すべてのタスクが表示される', () => {
