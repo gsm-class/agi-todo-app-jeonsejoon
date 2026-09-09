@@ -19,7 +19,7 @@ describe('TaskFilter', () => {
     )
 
     const checkbox = screen.getByRole('checkbox')
-    const label = screen.getByText('完了済みのタスクを表示')
+    const label = screen.getByText('완료된 작업 표시')
 
     expect(checkbox).toBeInTheDocument()
     expect(label).toBeInTheDocument()
@@ -90,7 +90,7 @@ describe('TaskFilter', () => {
       />
     )
 
-    const label = screen.getByText('完了済みのタスクを表示')
+    const label = screen.getByText('완료된 작업 표시')
     await user.click(label)
 
     expect(mockOnToggleShowCompleted).toHaveBeenCalledWith(true)
